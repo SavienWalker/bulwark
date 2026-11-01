@@ -1,0 +1,14 @@
+# Beyaz liste: sadece açıkça izin verilen dosyalar depoya girer.
+# Kişisel veri (data/, private_names.txt, sonuç CSV'leri) yanlışlıkla gönderilemesin diye her şey varsayılan olarak hariç.
+*
+!.gitignore
+!LICENSE
+!README.md
+!DATASET.md
+!FINETUNE_PLAN.md
+!requirements.txt
+!*.py
+!results_final_test.md
+# .py olsa bile hariç tutulanlar
+private_names*
+__pycache__/

@@ -1,0 +1,7 @@
+# GPU için torch'u https://pytorch.org adresindeki CUDA'lı sürümle kurun (ör. --index-url .../whl/cu130)
+torch>=2.14
+transformers>=5.21
+safetensors>=0.8
+huggingface_hub>=2.3
+# Sadece şifreli iPhone yedeğinden SMS çekmek için
+iphone_backup_decrypt>=0.11
