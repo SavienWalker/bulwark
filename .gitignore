@@ -9,6 +9,7 @@
 !requirements.txt
 !*.py
 !results_final_test.md
+!results_multi_seed.md
 # .py olsa bile hariç tutulanlar
 private_names*
 __pycache__/
